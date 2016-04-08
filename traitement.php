@@ -1,5 +1,4 @@
 <?php
-ini_set("SMTP","aspmx.l.google.com"); //A commenter sur le serveur
 $mail = strip_tags ($_POST['email']);; // Déclaration de l'adresse de l'expediteur
 $sujet = strip_tags($_POST['name']); // Nom de la société
 $message_txt = strip_tags ($_POST['message']); //Corp du message
