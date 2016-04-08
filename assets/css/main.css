@@ -1091,7 +1091,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		color: #484d55;
+		color: #3d4b4f;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1368,7 +1368,7 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #ec6858 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1419,7 +1419,7 @@
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
+			background: #3d4b4f url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1486,14 +1486,14 @@
 /* Feature List */
 
 	.feature-list h3 {
-		color: #e97770 !important;
+		color: #ec6858 !important;
 	}
 
 		.feature-list h3:before {
 			position: relative;
 			display: inline-block;
 			color: #fff;
-			background: #2f333b url("images/overlay.png");
+			background: #3d4b4f url("images/overlay.png");
 			border-radius: 1em;
 			text-align: center;
 		}
@@ -1562,13 +1562,13 @@
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #ec6858 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #ec6858 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -1685,6 +1685,8 @@
 		}
 
 		#footer-wrapper header.style1 h2 {
+			font-size: 1.75em;
+			font-weight: 500;
 			color: #fff;
 		}
 
@@ -1704,10 +1706,10 @@
 /* Logo */
 
 	#logo h1 {
-		font-weight: 900;
-		text-transform: uppercase;
+		font-weight: 600;
 		color: #fff;
-	}
+
+			}
 
 	#logo p {
 		color: #eee;
@@ -1718,9 +1720,10 @@
 /* Intro */
 
 	#intro > .style2 {
-		font-weight: 700;
+		font-weight: 500;
 		color: #fff;
 		border-radius: 0.35em;
+		/*--background-color: #ffffff;*/
 		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 	}
 
@@ -1736,7 +1739,7 @@
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #ec6858;
 		}
 
 /* Copyright */
@@ -1800,7 +1803,7 @@
 				header.style1 p {
 					display: block;
 					margin: 1.15em 0 0 0;
-					font-size: 1.3em;
+					font-size: 1.1em;
 					letter-spacing: 0.075em;
 					line-height: 1.5em;
 				}
@@ -1993,7 +1996,8 @@
 			}
 
 			#logo h1 {
-				font-size: 2em;
+
+				font-size: 3em;
 				letter-spacing: 0.25em;
 			}
 
@@ -2113,7 +2117,7 @@
 				}
 
 				#intro > .style2 {
-					font-size: 2.75em;
+					font-size: 1.75em;
 					letter-spacing: 0.075em;
 					line-height: 1.35em;
 					padding: 1em 0 1em 0;
@@ -2140,6 +2144,12 @@
 					margin-top: 5em;
 				}
 
+				#features header.style1 h2{
+					font-size: 1.75em;
+					font-weight:500;
+					
+				}
+
 		/* Highlights */
 
 			#highlights .highlight h3 {
@@ -2164,7 +2174,7 @@
 
 			#footer header.style1 {
 				padding-bottom: 0;
-			}
+
 
 			#footer hr {
 				margin: 6em 0 6em 0;
